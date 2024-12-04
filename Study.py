@@ -3,7 +3,7 @@ import difflib
 
 def get_text_input():
     text = input("Enter the text for the user to repeat: ")
-    return text
+    return text 
 
 def listen_and_recognize():
     recognizer = sr.Recognizer()
