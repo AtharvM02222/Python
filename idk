@@ -42,4 +42,48 @@ namespace My_Awesome_Program
 }
 
 
-----------------------------------
+--------------------------------
+
+using System;
+
+
+namespace My_Awesome_Program
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Declare variables
+            double num01;
+            double num02;
+            double num03;
+
+
+            // Get first number
+            Console.Write("Input a number: ");
+            num01 = Convert.ToDouble(Console.ReadLine());
+
+
+            // Get second number
+            Console.Write("Input a second number: ");
+            num02 = Convert.ToDouble(Console.ReadLine());
+
+
+            // Get third number
+            Console.Write("Input a third number: ");
+            num03 = Convert.ToDouble(Console.ReadLine());
+
+
+            // Calculate and display the average
+            double result = (num01 + num02 + num03) / 3;
+            Console.WriteLine("The average of these numbers is " + result);
+
+
+            // Wait before closing
+            Console.ReadKey();
+        }
+    }
+}
+
+
+-----------------//--------------------
