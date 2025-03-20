@@ -87,3 +87,64 @@ namespace My_Awesome_Program
 
 
 -----------------//--------------------
+
+using System;
+
+
+namespace My_Awesome_Program
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int answer;
+            
+            // First problem
+            Console.Write("15 + 2 * 2 = ");
+
+
+            answer = Convert.ToInt32(Console.ReadLine());
+
+
+            if (answer == 60) {
+                Console.WriteLine("Correct!");
+            } else {
+                Console.WriteLine("Wrong!");
+            }
+
+
+            // Second problem
+            Console.Write("10 * 2 / 4 = ");
+
+
+            answer = Convert.ToInt32(Console.ReadLine());
+
+
+            if (answer == 5) {
+                Console.WriteLine("Correct!");
+            } else {
+                Console.WriteLine("Wrong!");
+            }
+
+
+            // Third problem
+            Console.Write("(4 + 3 + 2 + 1) / 2 = ");
+
+
+            answer = Convert.ToInt32(Console.ReadLine());
+
+
+            if (answer == 6) {
+                Console.WriteLine("Correct!");
+            } else {
+                Console.WriteLine("Wrong!");
+            }
+
+
+            // Wait before closing
+            Console.ReadKey();
+        }
+    }
+}
+-------------------------------------------------
+
