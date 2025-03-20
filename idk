@@ -1,1 +1,45 @@
 
+using System;
+
+
+namespace My_Awesome_Program
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("A proud knight named...");
+
+
+            Console.ReadLine();
+
+
+            Console.WriteLine("...walked into a bar. At the counter he met a...");
+
+
+            Console.ReadLine();
+
+
+            Console.WriteLine("...who asked him what he wanted to drink?");
+
+
+            Console.ReadLine();
+
+
+            Console.WriteLine("...shouted the knight! The bartender shushed him quickly.");
+
+
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("But it was too late... A dragon ate them both.");
+
+
+            // Wait before closing
+
+
+            Console.ReadKey();
+        }
+    }
+}
+
+
+----------------------------------
