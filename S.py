@@ -1,0 +1,23 @@
+x = int(input("Enter a number: "))
+z = 0
+for i in range(x+1):
+    print(i)
+    z += i
+print("Sum is:", z)
+
+print("-------------------------------------------------------------------------------------------------------------------------")
+
+i = 0
+z = 0
+while i <= x:
+    print(i)
+    z += i
+    i += 1
+print("Sum is:", z)
+
+print("-------------------------------------------------------------------------------------------------------------------------")
+
+num = int(input("Enter a number: "))
+TD = num - 8
+print(f"To get the value 8 subtract: {TD}")
+print(f"Verification: {num} - {TD} = {num - TD}")
