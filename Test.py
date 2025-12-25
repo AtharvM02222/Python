@@ -5,7 +5,7 @@ def main():
     number1 = int(input("Enter the first number: "))
     number2 = int(input("Enter the second number: "))
     
-    # Ensure number1 is less than number2
+
     if number1 > number2:
         number1, number2 = number2, number1  
 
@@ -14,5 +14,5 @@ def main():
     for num in range(number1, number2 + 1):
         print(num)
 
-# Run 
+#RuN
 main()

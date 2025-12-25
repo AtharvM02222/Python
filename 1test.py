@@ -24,5 +24,5 @@ def main():
     print(f"The even numbers between {number1} and {number2} are: {even_numbers}")
     print(f"The odd numbers between {number1} and {number2} are: {odd_numbers}")
 
-# Run
+#RuN
 main()

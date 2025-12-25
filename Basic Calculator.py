@@ -36,5 +36,5 @@ def calculator():
     else:
         print("Invalid input.")
 
-# Run
+#RuN
 calculator()
