@@ -21,3 +21,5 @@ num = int(input("Enter a number: "))
 TD = num - 8
 print(f"To get the value 8 subtract: {TD}")
 print(f"Verification: {num} - {TD} = {num - TD}")
+
+print("-------------------------------------------------------------------------------------------------------------------------")
