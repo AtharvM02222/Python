@@ -1,0 +1,28 @@
+# Credentials and session files
+Osintgram/config/credentials.ini
+session-*
+*.session
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output files
+output/
+downloads/
+*.log
